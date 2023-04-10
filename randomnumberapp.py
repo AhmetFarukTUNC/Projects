@@ -1,16 +1,16 @@
 import random
-hak=int(input("Hak : "))
-can =100
-for i in range(hak):
+right=int(input("Hak : "))
+heart =100
+for i in range(right):
     number = random.randint(1,100)
     value = int(input("Value : "))
     print(number)
     if number == value :
-        can+=0
-        print("Anlık Puan :",can)
+        heart+=0
+        print("at the moment point :",heart)
     else:
         
-        can=can-(can/hak)
-        print("Anlık puan :",can)
+        heart=heart-(heart/right)
+        print("at the moment point :",hearth)
 
 
