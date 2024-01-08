@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Online Sınav Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="exam">
+        <div class="showQuestion">
+          <h2 id="question">Soru buraya gelecek</h2>
+          <ul>
+            <li>
+              <input type="radio" name="option" id="optionA" class="option">
+              <label for="optionA" id="descriptionA">A Şıkkı</label>
+            </li>
+  
+            <li>
+              <input type="radio" name="option" id="optionB" class="option">
+              <label for="optionB" id="descriptionB">B Şıkkı</label>
+            </li>
+  
+            <li>
+              <input type="radio" name="option" id="optionC" class="option">
+              <label for="optionC" id="descriptionC">C Şıkkı</label>
+            </li>
+  
+            <li>
+              <input type="radio" name="option" id="optionD" class="option">
+              <label for="optionD" id="descriptionD">D Şıkkı</label>
+            </li>
+          </ul>
+        </div>
+        <button id="sendExam">Cevabı Gönder</button>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
