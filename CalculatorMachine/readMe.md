@@ -4,7 +4,7 @@
 
 # Installation
 
-## 1. Install Python on your computer (https://www.python.org/downloads/).
+## 1. Install Python on your computer.
 
 ## 2. Download or clone the project:
 
